@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:background="@drawable/bg_ciit"
+                tools:context=".LoginPage">
+    <TextView android:id="@+id/title"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/digital_museum"
+                android:textColor="#000000" android:textSize="60sp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:paddingBottom="300dp"/>
+    <EditText android:id="@+id/un"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="Username"
+                android:inputType="text"
+                android:textColor="#000000" android:textSize="20sp"
+                android:paddingTop="40dp"/>
+    <EditText android:id="@+id/pw"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#000000" android:textSize="20sp"
+                android:paddingTop="40dp"/>
+    <Button android:id="@+id/btn_l"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/white"
+                android:text="Log In" />
+</LinearLayout>
