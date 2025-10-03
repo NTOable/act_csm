@@ -47,10 +47,10 @@ class MainActivity : AppCompatActivity() {
                 val go_a_pg = Intent(Intent.ACTION_VIEW, a_pg)
                 startActivity(go_a_pg)
             }
-            // code to display username
-            fun display_un() {
-                val un =
-                    println("Welcome $un .")
-            }
+            // code to display username (optional)
+//            fun display_un() {
+//                val un =
+//                    println("Welcome $un .")
+//            }
     }
 }
