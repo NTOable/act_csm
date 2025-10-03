@@ -5,8 +5,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import android.content.Intent
 import android.widget.*
-// import android.net.Uri // for parsing URLs to String >> Uri.parse("")
-import androidx.core.net.toUri // alternative to Uri.parse >> "".toUri()
+import androidx.core.net.toUri // for parsing URLs to String >> "".toUri()
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
