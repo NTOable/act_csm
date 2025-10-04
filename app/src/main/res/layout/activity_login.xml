@@ -9,13 +9,22 @@
                 android:orientation="vertical"
                 android:background="@drawable/bg_ciit"
                 tools:context=".LoginPage">
-    <TextView android:id="@+id/title"
-                android:layout_width="match_parent" android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="@string/digital_museum"
-                android:textColor="#000000" android:textSize="60sp"
-                android:fontFamily="sans-serif-smallcaps"
-                android:paddingBottom="300dp"/>
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:paddingBottom="25dp"
+        android:text="@string/digital_museum"
+        android:textColor="#000000"
+        android:textSize="38dp" />
+
+
+
+
     <EditText android:id="@+id/un"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -23,20 +32,32 @@
                 android:hint="Username"
                 android:inputType="text"
                 android:textColor="#000000" android:textSize="20sp"
-                android:paddingTop="40dp"/>
-    <EditText android:id="@+id/pw"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif"
-                android:hint="Password"
-                android:inputType="textPassword"
-                android:textColor="#000000" android:textSize="20sp"
-                android:paddingTop="40dp"/>
+                android:paddingTop="33dp"
+                android:background="@drawable/rounded_corner"
+                android:ellipsize="start"
+                android:gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingTop="33dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:background="@drawable/rounded_corner"
+        android:ellipsize="start"
+        android:gravity="center_horizontal"
+        />
+
     <Button android:id="@+id/btn_l"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="sans-serif"
-                android:textColor="@color/black"
-                android:backgroundTint="@color/white"
+                android:textColor="@color/white"
+                android:backgroundTint="#00364d"
                 android:text="Log In" />
 </LinearLayout>

@@ -28,10 +28,10 @@ class LoginPage : AppCompatActivity() {
                 } else {
                     Toast.makeText(this, "Logging in!", Toast.LENGTH_SHORT) .show()
                     // to use username for main page (optional)
-//                    val intent = Intent(this, MainActivity::class.java)
-//                        intent?.run {
-//
-//                        }
+                    val intent = Intent(this, MainActivity::class.java)
+                        intent?.run {
+
+                       }
                     // redirect to main page
                     startActivity(intent)
                 }
