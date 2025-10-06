@@ -35,7 +35,8 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="bottom"
-                android:src="@drawable/btn_course"></ImageButton>
+                android:src="@drawable/btn_course">
+            </ImageButton>
         </LinearLayout>
     </HorizontalScrollView>
 
@@ -52,19 +53,30 @@
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="bottom"
-                android:src="@drawable/btn_blog"></ImageButton>
+                android:src="@drawable/btn_blog">
+            </ImageButton>
             <ImageButton
                 android:id="@+id/btn_4"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="bottom"
-                android:src="@drawable/btn_enroll"></ImageButton>
+                android:src="@drawable/btn_enroll">
+            </ImageButton>
             <ImageButton
                 android:id="@+id/btn_5"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:layout_gravity="bottom"
-                android:src="@drawable/btn_about"></ImageButton>
+                android:src="@drawable/btn_about">
+            </ImageButton>
         </LinearLayout>
     </HorizontalScrollView>
+    <androidx.appcompat.widget.SwitchCompat android:id="@+id/sw_minimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Minimal Mode"/>
+    <ToggleButton android:id="@+id/tg_fun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fun Mode"/>
 </LinearLayout>
