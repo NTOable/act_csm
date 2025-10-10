@@ -27,6 +27,9 @@ class LoginPage : AppCompatActivity() {
                     Toast.makeText(this, "Please fill the fields!", Toast.LENGTH_SHORT) .show()
                 } else {
                     Toast.makeText(this, "Logging in!", Toast.LENGTH_SHORT) .show()
+                    // redirect to main page
+                    val intent = Intent(this, MainActivity::class.java)
+                    startActivity(intent)
                     // to use username for main page (optional)
                     val intent = Intent(this, MainActivity::class.java)
                         intent?.run {
@@ -34,6 +37,9 @@ class LoginPage : AppCompatActivity() {
                        }
                     // redirect to main page
                     startActivity(intent)
+//                        intent?.run {
+//
+//                        }
                 }
             }
     }
