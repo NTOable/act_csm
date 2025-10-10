@@ -31,6 +31,12 @@ class LoginPage : AppCompatActivity() {
                     val intent = Intent(this, MainActivity::class.java)
                     startActivity(intent)
                     // to use username for main page (optional)
+                    val intent = Intent(this, MainActivity::class.java)
+                        intent?.run {
+
+                       }
+                    // redirect to main page
+                    startActivity(intent)
 //                        intent?.run {
 //
 //                        }
